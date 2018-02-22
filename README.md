@@ -11,7 +11,7 @@
 
 
 ```
-*Right click on project and click publish* 
- *Configure your settings*
+*Right click on project and click publish
+ *Configure your settings
 
 ```
