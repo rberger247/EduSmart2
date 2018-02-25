@@ -33,7 +33,7 @@
       bundles.Add(new ScriptBundle("~/bundles/NgApp").Include(
                       "~/NgApp/app.js"));
   ```            
-  Important: Make sure to load angular first:
+  **Important: Make sure to load angular first**
   * Load the scripts in a shared view such as _layout.cshtml
        @Scripts.Render("~/bundles/Angular")
        @Scripts.Render("~/bundles/NgApp")
