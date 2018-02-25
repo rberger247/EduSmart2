@@ -38,7 +38,7 @@
        @Scripts.Render("~/bundles/NgApp")
 
 * In _layout.cshtml declare your app as an angular app 
-
+```
   <html ng-app="myApp">
 
 ```
