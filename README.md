@@ -15,8 +15,10 @@
 ```
 * add angular to project by installing in project from nuget package manager
 
+```
+
 ![nugetangular](https://user-images.githubusercontent.com/29547972/36638073-549ca95e-19b8-11e8-86f5-abc246227df6.png)
- 
+ ```
 * In Bundle.config file add reference to angular                      
         bundles.Add(new ScriptBundle("~/bundles/Angular").Include(
                         "~/Scripts/angular.min.js"));
@@ -38,6 +40,6 @@
 * In _layout.cshtml declare your app as an angular app 
 
   <html ng-app="myApp">
-```
 
+```
 
