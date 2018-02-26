@@ -10,6 +10,19 @@ namespace EduSmart2
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
+            // add angular
+            bundles.Add(new ScriptBundle("~/bundles/Angular").Include(
+                        "~/Scripts/angular.min.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/Router").Include(
+                  "~/node_modules/angular-ui-router/release/angular-ui-router.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/NgApp").Include(
+                      "~/NgApp/app.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/ClientControllers").Include(
+                      "~/ClientControllers/loginController.js"));
+
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
